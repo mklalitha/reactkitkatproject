@@ -1,0 +1,38 @@
+/* dropdown2 style */
+
+.drop_down_cont{
+    width:350px;
+    height:auto;
+    padding-bottom:0px;
+    border-left:5px solid #FF635E;
+    background-color:#fff;
+    position:absolute;
+    z-index:1;
+    margin-top:28px;
+}
+.drop_down_cont li{
+    font-family:'Josefin Sans', sans-serif;
+    list-style:none;
+    margin-left:10px;
+    text-align:left;
+    padding:10px;
+}
+.drop_down_cont li a{
+    text-decoration:none;
+
+}
+ .drop_down_cont2{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+.drop_down_cont2:hover{
+    margin-left:20px;
+}
+.drop_down_cont  .clicked{
+    display: none;
+}
+
+
+
+   

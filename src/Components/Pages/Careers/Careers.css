@@ -1,0 +1,148 @@
+.carrear_image{
+    position: relative;
+}
+.career_img{
+    width:100%;
+    height:auto;
+    padding-bottom:20px;
+    padding-top:20px;
+    position: relative;
+}
+.career_flex{
+    display:flex;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.career_flex_img{ 
+    width:24%;
+    margin-left:auto;
+    margin-right:auto;
+    height:200px;
+}
+.career_page_cont{
+    width:80%;
+     margin-left:auto;
+    margin-right:auto;
+    height:auto;
+     padding-bottom:20px;
+    padding-top:20px;
+    font-family: 'Roboto', serif;
+    font-size:18px;
+    text-indent:30px;
+    text-align:justify;
+}
+.carrear_table_cont{
+    width:100%;
+    height:auto;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+.carrear_flex{
+    width:60%;
+     height:auto;
+    padding-bottom:20px;
+    padding-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.liststyle a{
+    text-decoration:none;
+    color:#FF635E;
+}
+.content_lists{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    height:auto;
+}
+
+.cont_para_style{
+    width:95%;
+     margin-left:auto;
+    margin-right:auto;
+    height:auto;
+     padding-bottom:20px;
+    padding-top:20px;
+    font-family: 'Roboto', serif;
+    font-size:21px;
+    text-indent:70px;
+    text-align:justify;
+}
+.career_page_cont{
+    width:90%;
+     margin-left:auto;
+    margin-right:auto;
+    height:auto;
+     padding-bottom:20px;
+    padding-top:20px;
+    font-family: 'Roboto', serif;
+    font-size:18px;
+    text-indent:30px;
+    text-align:justify;
+}
+.resumecontainer{
+   display: flex;
+   flex-direction: column;
+}
+.resumecontainer h1{
+    text-align: left;
+    padding-left: 200px;
+}
+.resumecontainer form{
+    width:100%;
+    padding-left: 200px;
+   
+   }
+   .resumecontainer input{
+    border:2px solid #FF635E;
+    margin-bottom: 20px;
+    border-radius:4px;
+   }
+  .resumecontainer .upload{
+    background-color: #FF635E;
+    color: white;
+    border-radius:4px;
+    border: none;
+    padding: 5px;
+  }
+
+@media screen and (max-width : 767px){
+
+    .carrear_img{
+        height:250px;
+    }
+    .carrear_img .sli_img1{
+      display: block;
+      margin-left:20px;
+      margin-right:20px;
+      height:300px;
+      width: 450px;
+     
+     }
+.resumecontainer{
+    display: flex;
+    flex-direction: column;
+ }
+ .resumecontainer h1{
+     text-align: left;
+     padding-left:100px;
+ }
+ .resumecontainer form{
+     width:90%;
+     padding-left:5px;
+     margin-left:20px;
+    
+    }
+    .resumecontainer input{
+     border:2px solid #FF635E;
+     margin-bottom:20px;
+     border-radius:2px;
+    }
+   .resumecontainer .upload{
+     background-color: #FF635E;
+     color: white;
+   }
+}

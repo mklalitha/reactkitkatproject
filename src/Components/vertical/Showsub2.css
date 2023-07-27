@@ -1,0 +1,13 @@
+.none{
+    display: none;
+}
+
+.drop_down_cont_media{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    line-height:28px;
+    list-style: none;
+    text-align:left;
+    text-decoration:none;
+    color:#FF635E;
+}

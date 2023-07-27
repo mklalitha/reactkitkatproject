@@ -1,0 +1,104 @@
+.media_navigation{
+    display:none;
+}
+
+.media_{
+    display:block;
+}
+
+@media screen and (max-width : 762px){
+    .media_navigation{
+        width:100%;
+        margin-left:auto;
+        margin-top:38px;
+        margin-right:auto;
+        height:auto;
+        padding-bottom:20px;
+        padding-top:30px;
+        position:fixed;
+        background-color:#fff;
+        z-index:2;
+        margin-top:-80px;  
+        display:none;
+    }
+    .nav_content_list_media1{
+        padding:10px;
+        background-color:#fff;
+        color:#FF635E;
+         padding-left:40px;
+    }
+    .nav_content_list_media{
+        padding:10px;
+        background-color:#fff;
+        color:#FF635E;
+         padding-left:40px;
+    }
+    .nav_content_list_media a{
+         color:#FF635E;
+    }
+    .media_navigation a{
+        text-decoration:none;
+          color:#FF635E;
+    }
+    .media_navigation ul{
+        list-style: none;
+        text-align:left;
+    }
+    .media_down{
+        margin-left:20px;
+        margin-left:40%;
+        margin-top:-10%;
+        z-index:1;
+    }
+    .media_down1{
+        margin-left:20px;
+        margin-left:40%;
+        margin-top:-10%;
+        z-index:1;
+    }
+    .drop_down_cont_media{
+        font-family: 'Roboto', sans-serif;
+		font-weight:bold;
+		line-height:28px;
+    }
+    .drop_up_media{
+        margin-left:40%;
+        margin-top:-6%;
+    }
+    .drop_up_media1{
+        margin-left:40%;
+        margin-top:-6%;
+    }
+    .up_down{
+        width:5%;
+        margin-right:50%;
+        float:right;
+    }
+    .list_ref_media{
+        font-size:17px;
+        font-weight:800;
+    }
+    .media_hidden{
+        display:block;
+    }
+  
+    .media_navigation .show{
+        display:block;
+        animation:slide 0.5s ease-in forwards;
+    }
+    @keyframes slide{
+        from{
+            transform:scaleX(0.3);
+            transform-origin:right;
+        }
+        to{
+            transform:scaleX(1);
+            transform-origin:right;
+        }
+    }
+    .media_navigation .hidden{
+        display:none;
+     
+    }
+
+}

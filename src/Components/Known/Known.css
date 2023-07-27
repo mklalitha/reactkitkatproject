@@ -1,0 +1,99 @@
+
+
+
+
+
+ .about_index{
+    width:100%;
+    height:500px;
+    display:flex;
+}
+.about_background_image{
+    width:80%;
+    height:100%;
+    background-image: url('../Sliderimg/gradient1.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.about_index_para{
+    width:55%;
+    height:100%;
+    /* background-color:rgba(41,55,80,0.9); */
+    background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+    color:#fff;
+    margin-left:-48%;
+}
+.about_index_image{
+    width:35%;
+    height:100%;
+    margin:0;
+    background-color:lightgray;
+}
+.about_index_image img{
+    width:100%;
+    height:49.7%;
+    margin:0;
+}
+.t1{
+   margin-left:5%;
+   margin-top:5%;
+}
+.p1{
+    width:90%;
+    text-indent:5%;
+    margin-left:5%;
+    text-align:justify;
+    font-family: 'Roboto', serif;
+    font-size:18px;
+}
+.p1_d{
+    width:90%;
+    text-indent:5%;
+    margin-left:5%;
+    text-align:justify;
+    font-family: 'Roboto', serif;
+    font-size:18px;
+}
+.rm{
+    text-align:center;
+    border:2px solid black;
+    text-decoration:none;
+    padding:5px 15px 5px 15px;
+    color:black;
+    font-weight:bold;
+    margin-left:40%;
+} 
+
+@media screen and (max-width : 762px)
+{
+   .about_index{
+        width:100%;
+        height:900px;
+        display:flex;
+    }
+    .about_index_image{
+       display:none;
+    }
+    .about_index_para{
+        width:90%;
+        height:100%;
+        background-color:rgba(41,55,80,0.9);
+        color:#fff;
+        margin-left:-90%;
+    }
+    .about_background_image{
+        width:100%;
+        height:100%;
+        background-image: url('../Sliderimg/gradient1.webp');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    .p1_d{
+        display:none;
+    }
+}
